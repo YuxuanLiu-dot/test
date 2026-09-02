@@ -34,7 +34,7 @@ def load_csv(filename, index_col, parse_dates=False):
     return pd.read_csv(path, index_col=index_col, parse_dates=parse_dates)
 
 
-macro = load_csv("macro_monthly.csv", index_col="Date", parse_dates=True)
+#macro = load_csv("macro_monthly.csv", index_col="Date", parse_dates=True)
 normalized = load_csv("market_normalized.csv", index_col="Date", parse_dates=True)
 prices = load_csv("market_prices.csv", index_col="Date", parse_dates=True)
 snapshot = load_csv("company_snapshot.csv", index_col="Security")
