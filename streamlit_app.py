@@ -40,13 +40,13 @@ prices = load_csv("market_prices.csv", index_col="Date", parse_dates=True)
 snapshot = load_csv("company_snapshot.csv", index_col="Security")
 data_dict = load_csv("data_dictionary.csv", index_col=None)
 
-if macro is None:
-    st.error(
-        "找不到 `data/macro_monthly.csv`。\n\n"
-        "请先运行 Notebook 的 Part 8 导出数据，"
-        "再把 `day5_output/` 里的 CSV 上传到本仓库的 `data/` 文件夹。"
-    )
-    st.stop()
+# if macro is None:
+#     st.error(
+#         "找不到 `data/macro_monthly.csv`。\n\n"
+#         "请先运行 Notebook 的 Part 8 导出数据，"
+#         "再把 `day5_output/` 里的 CSV 上传到本仓库的 `data/` 文件夹。"
+#     )
+#     st.stop()
 
 
 # ---------------------------------------------------------------- 标题
