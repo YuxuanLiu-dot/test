@@ -1,0 +1,5 @@
+Indicator,US_10Y_Treasury,US_30Y_Mortgage,US_New_Home_Sales,US_CPI
+US_10Y_Treasury,1.0,0.937,-0.252,0.168
+US_30Y_Mortgage,0.937,1.0,-0.155,0.302
+US_New_Home_Sales,-0.252,-0.155,1.0,0.132
+US_CPI,0.168,0.302,0.132,1.0

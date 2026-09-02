@@ -1,0 +1,8 @@
+﻿file,column,description,unit,frequency,source
+macro_monthly.csv,US_10Y_Treasury,美国 10 年期国债收益率，月度平均,%,Monthly,FRED: DGS10
+macro_monthly.csv,US_30Y_Mortgage,美国 30 年期固定房贷利率，月度平均,%,Monthly,FRED: MORTGAGE30US
+macro_monthly.csv,US_New_Home_Sales,美国新建独栋住宅销售，季调年化,千套,Monthly,FRED: HSN1F
+macro_monthly.csv,US_CPI,美国消费者价格指数,Index,Monthly,FRED: CPIAUCSL
+macro_monthly.csv,Spread,房贷利率减国债收益率,百分点,Monthly,计算得出
+market_normalized.csv,0669.HK / 2285.HK,归一化股价表现，期初 = 100,Index,Daily,由收盘价计算
+company_snapshot.csv,PE(TTM) / PB(MRQ) / Market Cap,估值倍数与市值截面快照,倍 / 亿,Snapshot,见 README
